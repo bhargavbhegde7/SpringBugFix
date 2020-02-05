@@ -1,0 +1,4 @@
+rootProject.name = 'SpringBugFix'
+//include ':spring-boot'
+//project(':spring-boot').projectDir = new File('../spring-boot')
+includeBuild("../spring-boot")
